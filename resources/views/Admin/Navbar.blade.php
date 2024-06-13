@@ -34,8 +34,6 @@
                             </a>
                             <a href="{{route('profile.edit')}}" class="text-gray-700 block px-4 py-2 text-sm"
                             role="menuitem" tabindex="-1" id="menu-item-2">Edit</a>
-                            <a href="{{route('profile.delete')}}" class="text-gray-700 block px-4 py-2 text-sm"
-                            role="menuitem" tabindex="-1" id="menu-item-2">Delete</a>
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 @csrf
                             </form>
