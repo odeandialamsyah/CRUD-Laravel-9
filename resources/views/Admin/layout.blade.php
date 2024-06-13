@@ -17,7 +17,6 @@
 </head>
 <body class="antialiased">
     @yield('content')
-    @include('Admin.Navbar')
     @include('Partials.Footer')
     <script>
         document.addEventListener("DOMContentLoaded", function() {
