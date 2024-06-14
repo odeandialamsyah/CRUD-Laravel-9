@@ -12,6 +12,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\UserPageController;
 use Illuminate\Auth\Events\Registered;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
+use Spatie\FlareClient\View;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,6 +31,10 @@ Route::get('/contact', [Controller::class, 'contact']);
 
 Route::middleware(['auth', 'permission:view data'])->group(function () {
     Route::get('user-page', [UserPageController::class, 'index'])->name('user.page');
+});
+
+Route::get('/inCard', function(){
+    return view('inCard');
 });
 
 //login
