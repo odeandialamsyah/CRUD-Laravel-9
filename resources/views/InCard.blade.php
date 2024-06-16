@@ -1,4 +1,4 @@
-@extends('Partials.layout')
+@extends ('Partials.layout')
 @section('title', 'KOSKU')
 @section('content')
 
