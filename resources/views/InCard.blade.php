@@ -9,6 +9,13 @@
     </div>
     <div>
         <H1>Deskripsi</H1>
+        <th class="py-2 px-4 border border-gray-500">Name</th>
+        <th class="py-2 px-4 border border-gray-500">Address</th>
+        <th class="py-2 px-4 border border-gray-500">Unit</th>
+        <th class="py-2 px-4 border border-gray-500">Price Range</th>
+        <th class="py-2 px-4 border border-gray-500">Description</th>
+        <th class="py-2 px-4 border border-gray-500">Photo</th>
+        <th class="py-2 px-4 border border-gray-500">Actions</th>
     </div>
 </div>
 
