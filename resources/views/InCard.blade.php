@@ -11,8 +11,8 @@
         <H1>Deskripsi</H1>
         <label >Name</label>
         <label >Address</label>
-        <label class="py-2 px-4 border border-gray-500">Unit</label>
-        <label class="py-2 px-4 border border-gray-500">Price Range</label>
+        <label >Unit</label>
+        <label >Price Range</label>
         <label class="py-2 px-4 border border-gray-500">Description</label>
         <label class="py-2 px-4 border border-gray-500">Photo</label>
         <label class="py-2 px-4 border border-gray-500">Actions</label>
