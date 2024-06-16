@@ -7,10 +7,10 @@
     <div class="w-2/5 flex flex-col h-screen mr-10 ml-10">
         <H1 class="w-full justify-center text-center" >Gambar</H1>
     </div>
-    <div>
+    <div class="flex-col">
         <H1>Deskripsi</H1>
-        <label class="py-2 px-4 border border-gray-500">Name</label>
-        <label class="py-2 px-4 border border-gray-500">Address</label>
+        <label >Name</label>
+        <label >Address</label>
         <label class="py-2 px-4 border border-gray-500">Unit</label>
         <label class="py-2 px-4 border border-gray-500">Price Range</label>
         <label class="py-2 px-4 border border-gray-500">Description</label>
