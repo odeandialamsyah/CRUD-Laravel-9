@@ -13,9 +13,9 @@
         <label >Address</label>
         <label >Unit</label>
         <label >Price Range</label>
-        <label class="py-2 px-4 border border-gray-500">Description</label>
-        <label class="py-2 px-4 border border-gray-500">Photo</label>
-        <label class="py-2 px-4 border border-gray-500">Actions</label>
+        <label >Description</label>
+        <label >Photo</label>
+        <label >Actions</label>
     </div>
 </div>
 
